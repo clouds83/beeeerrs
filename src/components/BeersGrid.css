@@ -1,0 +1,116 @@
+.beer_wrapper {
+  margin: auto;
+}
+
+.beers-grid .beers-grid__query-text {
+  color: var(--primary-700);
+}
+
+.beers-grid__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark-color);
+  letter-spacing: -0.02em;
+  margin: 0 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.title__current-page {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.beers-grid__card-wrapper {
+  display: flex;
+}
+
+.beers-grid__pagination {
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.beers-grid__pagination-button {
+  background-color: var(--dark-color);
+  color: white;
+  border: 0;
+  outline: 0;
+  border-radius: var(--radius-full);
+  padding: 0 1.25rem;
+  height: 2.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.beers-grid__pagination-button svg {
+  margin-top: -2px;
+  margin-left: 0.75rem;
+  margin-right: -0.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.beers-grid__pagination-button:first-child svg {
+  margin-right: 0.75rem;
+  margin-left: -0.25rem;
+}
+
+.beers-grid__pagination-button:hover:not([disabled]) svg {
+  fill: var(--dark-color);
+}
+
+.beers-grid__pagination-button:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 1px;
+}
+
+.beers-grid__pagination-button:nth-child(2) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.beers-grid__pagination-button:hover {
+  background-color: var(--primary-400);
+  color: var(--dark-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.beers-grid__pagination-button:active {
+  color: white;
+  background-color: var(--dark-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.beers-grid__pagination-button:disabled {
+  color: white;
+  background-color: var(--disabled);
+  transition: all 0.2s ease-in-out;
+  cursor: not-allowed;
+}
+
+.pagination__back-page1 {
+  color: var(--dark-color);
+  background-color: transparent !important;
+  border: none;
+  margin-left: 1rem;
+}
+
+.pagination__back-page1:hover {
+  color: var(--primary-700);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  .beers-grid__title {
+    font-size: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    line-height: 1;
+    gap: 1rem;
+  }
+
+  .title__current-page {
+    font-size: 1.125rem;
+  }
+}

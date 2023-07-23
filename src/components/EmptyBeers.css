@@ -1,0 +1,8 @@
+.empty-beers {
+  text-align: center;
+}
+
+.empty-beers__image {
+  max-width: 200px;
+  margin-top: 1rem;
+}
