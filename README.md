@@ -1,3 +1,6 @@
+# Hosted project for easy access
+[https://glofox-uxe-test-clouds83.vercel.app/](https://glofox-uxe-test-clouds83.vercel.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
