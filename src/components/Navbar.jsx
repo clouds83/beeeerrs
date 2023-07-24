@@ -5,7 +5,7 @@ import './Navbar.css'
 
 const Navbar = () => {
   const [search, setSearch] = useState('')
-  const [searchType, setSearchType] = useState('beer_name')
+  const [searchType, setSearchType] = useState('')
   const navigate = useNavigate()
 
   const handleSubmit = (e) => {
@@ -64,9 +64,7 @@ const Navbar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
                 </svg>
                 <select className="navbar__search-select" value={searchType} onChange={handleSearchTypeChange}>
-                  <option value="" defaultValue={''}>
-                    Search by
-                  </option>
+                  <option value="">Search by</option>
                   <option value="beer_name">Beer Name</option>
                   <option value="food">Food Pairing</option>
                   <option value="yeast">Yeast</option>
