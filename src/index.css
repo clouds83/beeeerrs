@@ -4,9 +4,9 @@
 
 :root {
   --primary-400: #f7ce45;
-  --primary-700: #9a7a26;
+  --primary-700: hsl(43, 60%, 30%);
 
-  --text-color: #847c71;
+  --text-color: hsl(35, 8%, 40%);
   --light-color: #f6f5f3;
   --dark-color: #2f3d0d;
   --disabled: #bfb9a6;
@@ -16,8 +16,8 @@
   --radius-full: 9999px;
 }
 
-strong {
-  font-weight: 600 !important;
+body strong {
+  font-weight: 600;
 }
 
 main {

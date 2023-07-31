@@ -44,7 +44,9 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li className="navbar__navigation-item">
-                  <NavLink to="/favorites" className="navbar__navigation-link">
+                  <NavLink
+                    to="/favorites"
+                    className={({ isActive }) => (isActive ? 'navbar__navigation-link--active' : '')}>
                     Favorites
                   </NavLink>
                 </li>

@@ -105,9 +105,9 @@
 
 .beer-card__description {
   margin: 0.5rem 0;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   line-height: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   font-style: italic;
 }
 
